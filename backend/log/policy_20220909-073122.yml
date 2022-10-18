@@ -1,0 +1,36 @@
+exclude-actions:
+- ''
+list:
+- arn:aws:iam::aws:policy/AmazonEC2FullAccess
+mode: crud
+name: webcreate3
+permissions-management:
+- ''
+read:
+- ''
+skip-resource-constraints:
+- ''
+sts:
+  assume-role:
+  - ''
+  assume-role-with-saml:
+  - ''
+  assume-role-with-web-identity:
+  - ''
+tagging:
+- ''
+wildcard-only:
+  service-list:
+  - ''
+  service-permissions-management:
+  - ''
+  service-read:
+  - ''
+  service-tagging:
+  - ''
+  service-write:
+  - ''
+  single-actions:
+  - ''
+write:
+- ''
